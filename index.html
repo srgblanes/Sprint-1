@@ -1,4 +1,4 @@
-<!DOCTYPE html>git con
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,36 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercici Sprint 1 - Maquetacio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <div class="main">
         <header class="header">
             <div class="menu">
-                <div class="logo">logo</div>
-                <div class="nav">menu navegacion</div>
-                <div class="social">redes sociales</div>
+                <div class="logo">
+                    <img style="width: 100px" src="images/favicon.ico">
+                </div>
+                <div class="nav">
+                    <ul class="navbar">
+                        <li class="navs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="house-chimney" class="svg-inline--fa fa-house-chimney" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M511.8 287.6L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6z"></path></svg>
+                            Inicio</li>
+                        <li class="navs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-location-dot" class="svg-inline--fa fa-map-location-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 0C221.7 0 168 53.73 168 120c0 48.38 16.86 61.9 107.7 193.5c5.957 8.604 18.69 8.604 24.65 0C391.1 181.9 408 168.4 408 120C408 53.73 354.3 0 288 0zM288 176C261.5 176 240 154.5 240 128S261.5 80 288 80c26.48 0 48 21.53 48 48S314.5 176 288 176zM10.06 227.6C3.984 230 0 235.9 0 242.4v253.5c0 11.32 11.49 19.04 22 14.84L160 448V201.4C152.5 188.8 147.2 178 143.4 167.5L10.06 227.6zM326.6 331.8C317.9 344.4 303.4 352 288 352c-15.42 0-29.86-7.566-38.66-20.28C233.2 308.3 196.9 256.6 192 249.6V447.1L384 512V249.6C379.1 256.6 342.8 308.3 326.6 331.8zM554.1 161.2L416 224v288l149.9-67.59C572 441.1 576 436.1 576 429.6V176C576 164.7 564.6 156.1 554.1 161.2z"></path></svg>
+                            Rutas</li>
+                        <li class="navs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hotel" class="svg-inline--fa fa-hotel" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 448v-384c17.67 0 32-14.33 32-32c0-17.67-14.33-32-32-32H32c-17.67 0-32 14.33-32 32c0 17.67 14.33 32 32 32v384c-17.67 0-32 14.33-32 32c0 17.67 14.33 32 32 32h176v-96h96v96H480c17.67 0 32-14.33 32-32C512 462.3 497.7 448 480 448zM224 108.8c0-6.375 6.375-12.75 12.75-12.75h38.5C281.6 96.01 288 102.4 288 108.8v38.5c0 6.375-6.375 12.75-12.75 12.75h-38.5C230.4 160 224 153.6 224 147.3V108.8zM224 204.8c0-6.375 6.375-12.75 12.75-12.75h38.5C281.6 192 288 198.4 288 204.8v38.5c0 6.375-6.375 12.75-12.75 12.75h-38.5C230.4 256 224 249.6 224 243.3V204.8zM96 108.8c0-6.375 6.375-12.75 12.75-12.75h38.5C153.6 96.02 160 102.4 160 108.8V147.3c0 6.375-6.375 12.75-12.75 12.75h-38.5C102.4 160 96 153.6 96 147.3V108.8zM147.3 256h-38.5C102.4 256 96 249.6 96 243.3V204.8c0-6.375 6.375-12.75 12.75-12.75h38.5C153.6 192 160 198.4 160 204.8V243.3C160 249.6 153.6 256 147.3 256zM160 384c0-53 43-96 96-96s96 43 96 96H160zM416 243.3c0 6.375-6.375 12.75-12.75 12.75h-38.5C358.4 256 352 249.6 352 243.3V204.8c0-6.375 6.375-12.75 12.75-12.75h38.5C409.6 192 416 198.4 416 204.8V243.3zM416 147.3c0 6.375-6.375 12.75-12.75 12.75h-38.5C358.4 160 352 153.6 352 147.3V108.8c0-6.375 6.375-12.75 12.75-12.75h38.5C409.6 96.02 416 102.4 416 108.8V147.3z"></path></svg>
+                            Hoteles</li>
+                        <li class="navs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plane" class="svg-inline--fa fa-plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M482.3 192C516.5 192 576 221 576 256C576 292 516.5 320 482.3 320H365.7L265.2 495.9C259.5 505.8 248.9 512 237.4 512H181.2C170.6 512 162.9 501.8 165.8 491.6L214.9 320H112L68.8 377.6C65.78 381.6 61.04 384 56 384H14.03C6.284 384 0 377.7 0 369.1C0 368.7 .1818 367.4 .5398 366.1L32 256L.5398 145.9C.1818 144.6 0 143.3 0 142C0 134.3 6.284 128 14.03 128H56C61.04 128 65.78 130.4 68.8 134.4L112 192H214.9L165.8 20.4C162.9 10.17 170.6 0 181.2 0H237.4C248.9 0 259.5 6.153 265.2 16.12L365.7 192H482.3z"></path></svg>
+                            Vuelos</li>
+                        <li class="navs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 417.1c-16.38 0-32.88-4.1-46.88-15.12L0 250.9v213.1C0 490.5 21.5 512 48 512h416c26.5 0 48-21.5 48-47.1V250.9l-209.1 151.1C288.9 412 272.4 417.1 256 417.1zM493.6 163C484.8 156 476.4 149.5 464 140.1v-44.12c0-26.5-21.5-48-48-48l-77.5 .0016c-3.125-2.25-5.875-4.25-9.125-6.5C312.6 29.13 279.3-.3732 256 .0018C232.8-.3732 199.4 29.13 182.6 41.5c-3.25 2.25-6 4.25-9.125 6.5L96 48c-26.5 0-48 21.5-48 48v44.12C35.63 149.5 27.25 156 18.38 163C6.75 172 0 186 0 200.8v10.62l96 69.37V96h320v184.7l96-69.37V200.8C512 186 505.3 172 493.6 163zM176 255.1h160c8.836 0 16-7.164 16-15.1c0-8.838-7.164-16-16-16h-160c-8.836 0-16 7.162-16 16C160 248.8 167.2 255.1 176 255.1zM176 191.1h160c8.836 0 16-7.164 16-16c0-8.838-7.164-15.1-16-15.1h-160c-8.836 0-16 7.162-16 15.1C160 184.8 167.2 191.1 176 191.1z"></path></svg>
+                            Contacto</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.3V327.7h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0 -48-48z"></path></svg>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
+                </div>
             </div>
             <div class="titulo">
-                <h1>Titulo</h1>
+                <h1>"Disfruta de la experencia de otro viajeros"</h1>
             </div>
         </header>
         <section class="cuerpo">
             <div class="articulos">
-                <article class="articulo">articulo</article>
-                <article class="articulo">articulo</article>
-                <article class="articulo">articulo</article>
-                <article class="articulo">articulo</article>
-                <article class="navegacion">navegacion</article>
+                <article class="articulo">
+                    <img src="/images/sakura.jpg">
+                    <h2>CULTURA</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sapiente at, facere dolorem excepturi laudantium rerum iusto, sint impedit odio quia a, voluptatibus veniam quas repudiandae aspernatur minima magnam neque!</p>
+                </article>
+                <article class="articulo">
+                    <img src="/images/comida.jpg">
+                    <h2>GASTRONOMIA</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sapiente at, facere dolorem excepturi laudantium rerum iusto, sint impedit odio quia a, voluptatibus veniam quas repudiandae aspernatur minima magnam neque!</p>
+                </article>
+                <article class="articulo">
+                    <img src="/images/fuji.jpg">
+                    <h2>TURISMO</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sapiente at, facere dolorem excepturi laudantium rerum iusto, sint impedit odio quia a, voluptatibus veniam quas repudiandae aspernatur minima magnam neque!</p>
+                </article>
+                <article class="articulo">
+                    <img src="/images/noche.jpg">
+                    <h2>VIDA NOCTURNA</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sapiente at, facere dolorem excepturi laudantium rerum iusto, sint impedit odio quia a, voluptatibus veniam quas repudiandae aspernatur minima magnam neque!</p>
+                </article>
+                <article class="navegacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam sint quas labore, dolorum dolor exercitationem dignissimos totam quos perferendis, est suscipit eveniet ratione asperiores. Enim ex numquam tempore eaque!</article>
             </div>
             <aside class="aside">
-                <div class="asides">aside1</div>
-                <div class="asides">aside2</div>
+                <div class="asides">
+                    <h3>Something</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quos expedita magni nulla, dolor quam. Fugit temporibus repellendus iure, dicta vel porro adipisci perspiciatis debitis sint totam ea ducimus.</p>
+                </div>
             </aside>
         </section>
         <footer class="footer">
-            <h4>footer</h4>
+            <h4>2021 Japan Tourism</h4>
         </footer>
     </div>
 </body>
